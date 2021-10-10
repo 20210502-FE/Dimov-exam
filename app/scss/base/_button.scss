@@ -1,0 +1,38 @@
+.buttons {
+    display: inline-flex;
+
+    &_banner {
+        margin-bottom: 50px;
+    }
+
+    &_price {
+        margin-left: 139px;
+        margin-bottom: 42px;
+    }
+}
+
+.button {
+    font-family: $m-font-semi, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 26px;
+    border: 1px $color-bahama-blue solid;
+    min-width: 232px;
+    background-color: transparent;
+    color: $color-bahama-blue;
+    padding: 15px 0;
+    margin-right: 24px;
+
+    &:hover {
+        background-color: $color-bahama-blue;
+        padding: 15px 0;
+        color: $color-white;
+    }
+
+    &_footer {
+        color: $color-bahama-blue;
+        background-color: $color-white;
+    }
+}
