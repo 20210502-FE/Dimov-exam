@@ -1,0 +1,106 @@
+.flight {
+
+    &__picture {
+        max-width: 424px;
+        text-align: center;
+        margin: 0 auto;
+
+        & img {
+            margin-top: -25px;
+            margin-bottom: 68px;
+        }
+    }
+
+}
+
+.heading {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    &_bottom {
+        margin-bottom: 72px;
+    }
+
+    &__title {
+        text-align: center;
+        font-family: $m-font-extra, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 60px;
+        color: $color-orient;
+        padding-top: 24px;
+
+        &_white {
+            color: $color-white;
+        }
+    }
+
+    &__svg {
+        position: absolute;
+        top: 50px;
+        z-index: -1;
+
+
+        &_flight {
+            left: 18%;
+        }
+
+        &_question {
+            left: 14%;
+        }
+
+        &_price {
+            left: 7%;
+        }
+
+        &_trainers {
+            left: 9%;
+        }
+
+        &_gallery {
+            left: 33%;
+        }
+
+        &_rent {
+            left: 3%;
+        }
+
+        &_contacts {
+            left: 30%;
+        }
+    }
+}
+
+.slider {
+    max-width: 748px;
+    margin-bottom: 96px;
+
+    &__content {
+        box-shadow: 0 12px 32px 24px rgba(0, 68, 112, 0.05);
+    }
+
+    &>div:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-family: $m-font-medium;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: $color-orient;
+        padding: 28px 28px 20px 28px;
+    }
+
+    &__text {
+        font-family: $m-font-regular;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.9);
+        padding: 0 28px 28px 28px;
+    }
+
+}
